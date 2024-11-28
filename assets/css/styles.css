@@ -10,9 +10,16 @@
     font-family: 'Roboto';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #3c2327;
-    
     width: 100%;
     height: 100vh;
+}
+
+main {
+    background: linear-gradient(0deg, rgba(33,26,27,1) 38%, rgba(41,27,30,1) 64%, rgba(60,35,39,1) 89%);
+    padding: 3rem;
 }

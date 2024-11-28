@@ -2,6 +2,8 @@
     padding: 0.5rem 1.5rem;
     position: fixed;
     width: 100%;
+    box-shadow: -1px 88px 55px -41px rgba(0,0,0,0.7) inset;
+    z-index: 1;
 }
 
 .navbar {
@@ -47,13 +49,15 @@
 }
 .navMenu .menu{
     display: flex;
-    background-color: #120b0fd7;
-    padding: 0.3rem 1rem;
+    background-color: #060505ee;
+    padding: 0.3rem 1.3rem;
     border-radius: 3rem;
 }
-.navMenu .menu > div{
+.navMenu .menu > div > a{
     color: #b9b6b7;
-    font-size: 0.8rem;
-    margin: 0.5rem 1rem;
+}
+.navMenu .menu > div{
+    font-size: 0.9rem;
+    margin: 0.3rem 1.2rem;
     font-weight: bold;
 }

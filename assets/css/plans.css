@@ -1,0 +1,35 @@
+.plan-page .plan-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.plan-page .plan-cards .card{
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 20rem;
+    flex: 1;
+    transition: 400ms;
+}
+
+.plan-page .plan-cards .card:hover{
+    transform: scale(1.03);
+    transition: 400ms;
+}
+
+.plan-page .plan-cards .basic {
+    border: 2px solid #383e48;
+    background: linear-gradient(344deg, rgba(26,28,33,1) 38%, rgba(34,36,93,1) 64%, rgba(30,48,116,1) 89%);
+}
+
+.plan-page .plan-cards .premium {
+    border: 2px solid #4e4549;
+    background: linear-gradient(344deg, rgba(26,26,33,1) 38%, rgba(53,24,92,1) 64%, rgba(99,30,116,1) 89%);
+}
+
+.plan-page .plan-cards .card h1, h3, p, div {
+    margin: 0.5rem;
+    color: #b9b6b7;
+}
+.plan-page .plan-cards .card .price {
+    margin-top: 2rem;
+    font-weight: bolder;
+}

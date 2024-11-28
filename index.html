@@ -12,38 +12,126 @@
         <link rel="stylesheet" href="assets/css/nav-section.css">
 
         <link rel="stylesheet" href="assets/css/front-section.css">
+        
+        <link rel="stylesheet" href="assets/css/popular-now.css">
 
+        <link rel="stylesheet" href="assets/css/plans.css">
     </head>
     <body>
+        <section class="nav-section">
+            <nav class="navbar">    
+                <img src="assets/images/Netflix_Logo_PMS.png" alt="">
+                <div class="buttons">
+                    <select name="language" id="language">
+                        <option value="Tagalog">Tagalog</option>
+                        <option value="English" selected>English</option>
+                    </select>
+                    <div>Sign in</div>
+                </div>
+            </nav>
+            <nav class="navMenu">
+                <div class="menu">
+                    <div><a href="#popular-now">Popular now</a></div>
+                    <div><a href="#plans">Plans</a></div>
+                    <div><a href="reason-to-join">Reason to Join</a></div>
+                    <div><a href="faq">FAQ</a></div>
+                </div>
+            </nav>
+        </section>
         <main>
-            <section class="nav-section">
-                <nav class="navbar">    
-                    <img src="assets/images/Netflix_Logo_PMS.png" alt="">
-                    <div class="buttons">
-                        <select name="language" id="language">
-                            <option value="Tagalog">Tagalog</option>
-                            <option value="English" selected>English</option>
-                        </select>
-                        <div>Sign in</div>
-                    </div>
-                </nav>
-                <nav class="navMenu">
-                    <div class="menu">
-                        <div>Popular now</div>
-                        <div>Plans</div>
-                        <div>Reason to Join</div>
-                        <div>FAQ</div>
-                    </div>
-                </nav>
-            </section>
             
             <section class="front-section">
-                <div class="front-card">
-                    <div><h1>Unlimited movies, TV Shows, and more</h1></div>
-                    <div>starts at P149. Cancel anytime.</div>
+                <div class="front-page">
+                    <div class="front-card">
+                        <div class="text">
+                            <div><h1>Unlimited movies, TV Shows, and more</h1></div>
+                            <div>starts at P149. Cancel anytime.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="membership">
+                    <div>
+
+                        <div>Ready to watch? Enter your email to create or restart your membership</div>
+                        <div class="get-started">
+                            <input type="email" placeholder="Email Address">
+                            <button>Get Started</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 
+            <section class="popular-now" id="popular-now">
+                <div class="">
+                    <div class="consume">
+                        <div><h1>Trending Now</h1></div>
+                        <div class="posters">
+                            <img src="assets/images/movie-posters/poster-poster/arcane.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/conquer.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/loloandthekid.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/lavenderfields.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/pulangaraw (2).jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/gyeongseongcreature.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="consume">
+                        <div><h1>Only on Netflix</h1></div>
+                        <div class="posters">
+                            <img src="assets/images/movie-posters/poster-poster/dandadan.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/hellolovegoodbye.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/whispers.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/thehunt.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/theflash.jpg" alt="">
+                            <img src="assets/images/movie-posters/poster-poster/spellbound1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="plans" id="plans">
+                <div class="plan-page">
+                    <div><h1>A Plan To Suit Your Needs</h1></div>
+                    <div class="plan-cards">
+                        <div class="card basic">
+                            <h1>Mobile</h1>
+                            <h3>480p</h3>
+                            <p>✓ Fair video quality</p>
+                            <p>✓ For your phone or tablet</p>
+                            <div class="price">
+                                P149 /mo
+                            </div>
+                        </div>
+                        <div class="card basic">
+                            <h1>Basic</h1>
+                            <h3>720p</h3>
+                            <p>✓ Good video quality</p>
+                            <p>✓ For your phone, tablet, laptop and TV</p>
+                            <div class="price">
+                                P249 /mo
+                            </div>
+                        </div>
+                        <div class="card second premium">
+                            <h1>Standard</h1>
+                            <h3>1080p</h3>
+                            <p>✓ Great video quality</p>
+                            <p>✓ For your phone, tablet, laptop and TV</p>
+                            <div class="price">
+                                P399 /mo
+                            </div>
+                        </div>
+                        <div class="card premium">
+                            <h1>Premium</h1>
+                            <h3>4K + HDR</h3>
+                            <p>✓ Best video quality</p>
+                            <p>✓ Immerse Sound (spatial audio)</p>
+                            <p>✓ For your phone, tablet, laptop and TV</p>
+                            <div class="price">
+                                P549 /mo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
     <script src="assets/js/script.js"></script>
