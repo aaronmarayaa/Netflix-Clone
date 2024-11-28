@@ -1,0 +1,59 @@
+.nav-section {
+    padding: 0.5rem 1.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar img {
+    width: 10.8rem;
+}
+
+.navbar .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .buttons select{
+    border: 1px solid white;
+    width: 7rem;
+    height: 2rem;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    background-color: rgba(26, 25, 25, 0.674);
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+.navbar .buttons div{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 3rem;
+    margin-right: 3rem;
+}
+
+.navMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navMenu .menu{
+    display: flex;
+    background-color: #120b0fd7;
+    padding: 0.3rem 1rem;
+    border-radius: 3rem;
+}
+.navMenu .menu > div{
+    color: #b9b6b7;
+    font-size: 0.8rem;
+    margin: 0.5rem 1rem;
+    font-weight: bold;
+}
