@@ -1,0 +1,8 @@
+.faq-page {
+    margin: 3rem;
+}
+
+.faq-page .faq-card {
+    color: white;
+    background-color: #272727;
+}

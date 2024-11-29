@@ -1,3 +1,7 @@
+.plan-page{
+    margin: 0 3rem 3rem;
+}
+
 .plan-page .plan-cards {
     display: flex;
     flex-wrap: wrap;
