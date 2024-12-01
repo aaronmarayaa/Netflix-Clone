@@ -21,5 +21,9 @@ body {
 
 main {
     background: linear-gradient(0deg, rgba(33,26,27,1) 38%, rgba(41,27,30,1) 64%, rgba(60,35,39,1) 89%);
-    padding: 3rem;
+}
+
+section {
+    padding-top: 5rem;
+    width: 100%;
 }
