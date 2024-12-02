@@ -1,0 +1,27 @@
+.profiles {
+    display: none;
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profiles .profile-section {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profiles .profile-section .profile-card {
+    display: flex;
+}
+.profiles .profile-section .profile-card .image {
+    border: 1px solid blue;
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+}
+.profiles .profile-section .profile-card img{
+    width: 100%;
+}

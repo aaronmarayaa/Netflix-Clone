@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="assets/css/front.css">
         
         <link rel="stylesheet" href="assets/css/sign-in.css">
+        
+        <link rel="stylesheet" href="assets/css/profile.css">
     </head>
     <body>
         <section class="nav-section" id="nav-section">
@@ -215,15 +217,19 @@
 
             <article class="signin">
                 <section class="sign-in" id="sign-in" >
-                    <div class="logo" onclick="goToFrontpage()"><img src="assets/images/Netflix_Logo_PMS.png" alt=""></div>
+                    <div class="logo"><img src="assets/images/Netflix_Logo_PMS.png"  onclick="goToFrontpage()" alt=""></div>
                     <div class="sign-in-page">
-                        <form action="">
+                        <form onsubmit="return goToProfiles(event)">
                             <h1>Sign In</h1>
                             <div class="box">
-                                <input type="email" placeholder="Enter Email" required>
+                                <input type="email" id="email" placeholder="Enter Email">
                             </div>
                             <div class="box">
-                                <input type="password" placeholder="Enter Password" required min="4">
+                                <input type="password" id="password" placeholder="Enter Password" min="4">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="show" onclick="showPassword()">
+                                <label for="show">Show Password</label>
                             </div>
                             <input type="submit" value="Sign in">
                             <div>OR</div>
@@ -240,6 +246,30 @@
                         <div>
                             This page is protected by Google reCAPTCHA to ensure you're not a bot. 
                             <a href="">Learn more</a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="profiles" id="profiles">
+                <section class="profile-section">
+                    <div>
+                        <h1>Who's Watching?</h1>
+                        <div class="profile-card">
+                            <div class="image">
+                                <img src="assets/images/profiles/profile1.jpg" alt="">
+                                <p>Aizzy</p>
+                            </div>
+                            <div class="image">
+                                <img src="assets/images/profiles/profile2.jpg" alt="">
+                                <p>Wella</p>
+                            </div>
+                            <div class="image">
+                                <img src="assets/images/profiles/profile3.jpg" alt="">
+                            </div>
+                            <div class="image">
+                                <img src="assets/images/profiles/profile4.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </section>

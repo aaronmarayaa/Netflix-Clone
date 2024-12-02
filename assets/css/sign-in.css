@@ -54,7 +54,7 @@
     height: 4rem;
 }
 
-.sign-in-page form input {
+.sign-in-page form > input {
     width: 100%;
     background-color: red;
     border-radius: 0.5rem;
