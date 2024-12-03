@@ -32,7 +32,7 @@ function goToProfiles(event) {
         nav_section.style.display = "none";
         signin_page.style.display = "none";
         front_page.style.display = "none";
-        profiles.style.display = "block";
+        profiles.style.display = "flex";
     } else {
         alert("Invalid Email or Password!");
         return false;

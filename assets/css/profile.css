@@ -1,27 +1,45 @@
 .profiles {
     display: none;
+    justify-content: center;
+    align-items: center;
     background-color: #141414;
     width: 100vw;
     height: 100vh;
+    box-shadow: -1px 88px 55px -41px rgba(0,0,0,0.7) inset;
 }
 
 .profiles .profile-section {
-    border: 1px solid red;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+.profiles .profile-section h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+}
+.profiles .profile-section > div button {
+    padding: 1rem;
+    outline: 1px solid white;
+    background: none;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
 .profiles .profile-section .profile-card {
     display: flex;
 }
+
 .profiles .profile-section .profile-card .image {
-    border: 1px solid blue;
-    width: 5rem;
-    height: 5rem;
+    width: 13rem;
+    height: 12rem;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
-.profiles .profile-section .profile-card img{
+.profiles .profile-section .profile-card .image:hover {
+    outline: 2px solid white;
+}
+.profiles .profile-section .profile-card .image img{
     width: 100%;
 }
