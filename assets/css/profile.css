@@ -23,6 +23,7 @@
 .profiles .profile-section > div button {
     padding: 1rem;
     outline: 1px solid white;
+    border: none;
     background: none;
     font-size: 1.3rem;
     margin: 2rem;

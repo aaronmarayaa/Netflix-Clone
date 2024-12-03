@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="assets/css/sign-in.css">
         
         <link rel="stylesheet" href="assets/css/profile.css">
+
+        <link rel="stylesheet" href="assets/css/home.css">
     </head>
     <body>
         <section class="nav-section" id="nav-section">
@@ -270,6 +272,13 @@
                                 <p>Wella</p>
                                 <img src="assets/images/lock-keyhole.png" alt="">
                             </div>
+                            <div class="card" onclick="goToHome()">
+                                <div class="image">
+                                    <img src="assets/images/profiles/corgi.png" alt="">
+                                </div>
+                                <p>Stephanie</p>
+                                <img src="assets/images/lock-keyhole.png" alt="">
+                            </div>
                             <div class="card">
                                 <div class="image">
                                     <img src="assets/images/profiles/profile3.jpg" alt="">
@@ -289,6 +298,129 @@
                             <button>Manage Profiles</button>
                         </div>
                     </div>
+                </section>
+            </article>
+
+            <article class="home" id="home">
+                <section class="home-section">
+                    <nav>
+                        <div class="logo"><img src="assets/images/Netflix_Logo_PMS.png" alt=""></div>
+                        <div class="navMenu">
+                            <a href="#home">Home</a>
+                            <a href="#tv-shows">TV Shows</a>
+                            <a href="#movies">Movies</a>
+                            <a href="#new">New & Popular</a>
+                            <a href="#mylist">My List</a>
+                        </div>
+                        <div class="profile">
+                            <img src="assets/images/search.png" alt="">
+                            <img src="assets/images/bell.png" alt="">
+                            <img src="assets/images/profile-icon.png" onclick="confirmLogout(event)" alt="">
+                        </div>
+                    </nav>
+                    <div class="title">
+                        <img src="assets/images/movie-posters/font/theempressfont.png" alt="">
+                        <p>
+                            Ambition, love and betrayal intertwine when a royal concubine
+                            secretly plots to claim the throne for her family in the old Thai kingdom.
+                        </p>
+                        <div class="buttons">
+                            <button class="play-btn">
+                                <img src="assets/images/play.png" alt="">
+                                Play
+                            </button>
+                            <button class="info-btn">
+                                <img src="assets/images/info.png" alt="">
+                                More info
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="movie-section">
+                    <div>
+                        <h1>Blockbuster Sci-Fi and Fantasy Movies</h1>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/alita.jpg" alt="">
+                            <img src="assets/images/movie-posters/allofusaredead.jpg" alt="">
+                            <img src="assets/images/movie-posters/avatar.jpg" alt="">
+                            <img src="assets/images/movie-posters/bleach.jpg" alt="">
+                            <img src="assets/images/movie-posters/cantbuymelove.jpg" alt="">
+                            <img src="assets/images/movie-posters/damsel.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div id="tv-shows">
+                        <h1>TV Shows</h1>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/sweettooth.jpg" alt="">
+                            <img src="assets/images/movie-posters/theflash.jpg" alt="">
+                            <img src="assets/images/movie-posters/taxidriver.jpg" alt="">
+                            <img src="assets/images/movie-posters/theambrellaacademy.jpg" alt="">
+                            <img src="assets/images/movie-posters/thedayaftertomorrow.jpg" alt="">
+                            <img src="assets/images/movie-posters/wukong.jpg" alt="">
+                        </div>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/onelittlesecret.jpg" alt="">
+                            <img src="assets/images/movie-posters/onepiece.jpg" alt="">
+                            <img src="assets/images/movie-posters/overdrive.jpg" alt="">
+                            <img src="assets/images/movie-posters/pussinboots.jpg" alt="">
+                            <img src="assets/images/movie-posters/smurf.jpg" alt="">
+                            <img src="assets/images/movie-posters/squidgame.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div id="movies">
+                        <h1>Movies</h1>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/wonderland.jpg" alt="">
+                            <img src="assets/images/movie-posters/richierich.jpg" alt="">
+                            <img src="assets/images/movie-posters/kimbokjoo.jpg" alt="">
+                            <img src="assets/images/movie-posters/happiness.jpg" alt="">
+                            <img src="assets/images/movie-posters/heavenandhell.jpg" alt="">
+                            <img src="assets/images/movie-posters/tad.jpg" alt="">
+                        </div>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/seabeast.jpg" alt="">
+                            <img src="assets/images/movie-posters/kungfuhustle.jpg" alt="">
+                            <img src="assets/images/movie-posters/outlawking.jpg" alt="">
+                            <img src="assets/images/movie-posters/mrplankton.jpg" alt="">
+                            <img src="assets/images/movie-posters/myhappymarriage.jpg" alt="">
+                            <img src="assets/images/movie-posters/thetrunk.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div id="new">
+                        <h1>New on Netflix</h1>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/madagascar.jpg" alt="">
+                            <img src="assets/images/movie-posters/mdsjc.jpg" alt="">
+                            <img src="assets/images/movie-posters/minions.jpg" alt="">
+                            <img src="assets/images/movie-posters/mortalkombat.jpg" alt="">
+                            <img src="assets/images/movie-posters/morbius.jpg" alt="">
+                            <img src="assets/images/movie-posters/mystery.jpg" alt="">
+                        </div>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/demonslayer.jpg" alt="">
+                            <img src="assets/images/movie-posters/dontbreath.jpg" alt="">
+                            <img src="assets/images/movie-posters/escaperoom.jpg" alt="">
+                            <img src="assets/images/movie-posters/fairyoddparents.jpg" alt="">
+                            <img src="assets/images/movie-posters/ghostdoctor.jpg" alt="">
+                            <img src="assets/images/movie-posters/lifeonourplanet.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div id="mylist">
+                        <h1>My List</h1>
+                        <div class="movie-posters">
+                            <img src="assets/images/movie-posters/welcometowaikiki.jpg" alt="">
+                            <img src="assets/images/movie-posters/gumball.jpg" alt="">
+                            <img src="assets/images/movie-posters/thelasthouseontheleft.jpg" alt="">
+                            <img src="assets/images/movie-posters/silence.jpg" alt="">
+                            <img src="assets/images/movie-posters/blackclover.jpg" alt="">
+                            <img src="assets/images/movie-posters/queenoftears.jpg" alt="">
+                        </div>
+                    </div>
+                    
                 </section>
             </article>
         </main>

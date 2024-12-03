@@ -3,6 +3,7 @@ let signin_page = document.getElementById('sign-in')
 let nav_section = document.getElementById('nav-section')
 let profiles = document.getElementById('profiles')
 let password = document.getElementById('password')
+let home = document.getElementById('home')
 
 function showPassword() {
     if(password.type === "password") {
@@ -39,11 +40,21 @@ function goToProfiles(event) {
     }
 }
 
+function confirmLogout(event) {
+    event.preventDefault();
+
+    let confirm_ = confirm("Are you sure you want to log out?")
+    if (confirm_) {
+        goToFrontpage();
+    }
+}
+
 function goToSignIn() {
     front_page.style.display = "none"
     nav_section.style.display = "none"
     signin_page.style.display = "flex"
     profiles.style.display = "none"
+    home.style.display = "none"
 }
 
 function goToFrontpage() {
@@ -51,4 +62,13 @@ function goToFrontpage() {
     signin_page.style.display = "none"
     front_page.style.display = "block"
     profiles.style.display = "none"
+    home.style.display = "none"
+}
+
+function goToHome() {
+    front_page.style.display = "none"
+    nav_section.style.display = "none"
+    signin_page.style.display = "none"
+    profiles.style.display = "none"
+    home.style.display = "block"
 }

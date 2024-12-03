@@ -1,0 +1,109 @@
+.home {
+    display: none;
+    width: 100%;
+    height: 100vh;
+}
+
+.home .home-section{
+    background-image: url('/assets/images/movie-posters/background/theempressofayodhaya.jpg');
+    background-size: cover;
+    padding: 0.01rem 0.01rem;
+    width: 100%;
+    height: 100%;
+}
+
+.home-section nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -1px 88px 55px -41px rgba(0,0,0,0.7) inset;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+}
+
+.home-section nav .logo img{
+    width: 10rem;
+}
+
+.home-section nav .navMenu{
+    width: 70%;
+}
+.home-section nav .navMenu a{
+    margin: 0 1rem;
+}
+
+.home-section nav .profile img{
+    margin: 1rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.home-section .title {
+    width: 40rem;
+    margin: 9rem 4rem;
+}
+.home-section .title p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 1rem;
+}
+
+.home-section .title .buttons{
+    display: flex;
+}
+.home-section .title .buttons button{
+    display: flex;
+    align-items: center;
+    width: 9rem;
+    margin: 1rem;
+    transition: 400ms;
+}
+
+.home-section .title .buttons button:hover {
+    transform: scale(1.05);
+}
+
+.home-section .title .buttons button img{
+    width: 2rem;
+    margin: 1rem;
+}
+
+.home-section .title .buttons .play-btn{
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.home-section .title .buttons .info-btn{
+    background-color: rgba(0, 0, 0, 0.802);
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.movie-section {
+    background-color: #141414;
+    padding: 0.5rem 2rem;
+}
+
+.movie-section > div{
+    padding-top: 5rem;
+}
+
+.movie-section .movie-posters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.movie-section .movie-posters img{
+    flex: 1;
+    width: 10rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 400ms;
+}
+.movie-section .movie-posters img:hover {
+    transform: scale(1.07);
+}
